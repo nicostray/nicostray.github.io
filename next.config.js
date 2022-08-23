@@ -5,7 +5,6 @@ const nextConfig = {
     loader: "akamai",
     path: ""
   },
-  basePath: "/nextjs-pages",
   assetPrefix: "/nextjs-pages",
   eslint: {
     // Warning: This allows production builds to successfully complete even if
