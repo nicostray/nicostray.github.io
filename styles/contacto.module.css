@@ -1,0 +1,26 @@
+.contacto__container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+    border:1px solid rgb(197, 197, 197);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: var(--fondo);
+    padding: 15px 10px;
+    position:fixed;
+    color:rgb(90, 90, 90);
+    top: calc(50vh - 100px);
+    right:-1px;
+    z-index: 9;
+}
+
+.contacto__container i{
+    font-size: 2rem;
+}
+
+.contacto__container i:hover{
+    transition: all ease-in-out .3s;
+    transform: scale(1.1);
+    color:black;
+}

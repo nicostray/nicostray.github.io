@@ -1,0 +1,21 @@
+.tecnologia{
+    width: 70px;
+}
+
+@media(max-width: 1100px){
+    .tecnologia{
+        width: 60px;
+    }
+}
+
+@media(max-width: 800px){
+    .tecnologia{
+        width: 70px;
+    }
+}
+
+@media(max-width: 380px){
+    .tecnologia{
+        width: 60px;
+    }
+}

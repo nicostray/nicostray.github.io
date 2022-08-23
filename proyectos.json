@@ -1,0 +1,33 @@
+[
+    {
+        "nombre" : "Full System EIRL",
+        "descripcion" : "Página web creada para la empresa Full System EIRL solo utilizando tecnologías en su versión vanilla.",
+        "url" : "https://fullsystemeirl.com/",
+        "source" : "https://github.com/nicostray/web-fullsystem",
+        "image" : "/proyecto-fullsystem.webp",
+        "tecnologias" : ["html", "css", "javascript"]
+    },
+    {
+        "nombre" : "JM Correa Congelados",
+        "descripcion" : "Página web creada para la empresa JM Correa congelados, utilizando tecnologías de frontend y backend",
+        "url" : "https://stray.cl",
+        "image" : "/proyecto-jmcorrea.webp",
+        "tecnologias" : ["nextjs","css", "nodejs", "mongodb"]
+    },
+    {
+        "nombre" : "Buscador de patentes chilenas",
+        "descripcion" : "Página web que entrega información del vehiculo y su propietario al momento de ingresar una patente chilena.",
+        "url" : "https://fullsystemeirl.com/",
+        "image" : "/proyecto-patentes.webp",
+        "tecnologias" : ["react", "css", "nodejs"]
+    },
+    {
+        "nombre" : "Habboogle",
+        "descripcion" : "Buscador de usuarios de los distintos hoteles de habbo, muestra información detallada sobre cada uno al entrar a su perfil.",
+        "url" : "https://habboogle.vercel.app/",
+        "source" : "https://github.com/nicostray/habboogle",
+        "image" : "/proyecto-habboogle.webp",
+        "tecnologias" : ["react", "css"]
+    }
+
+]
