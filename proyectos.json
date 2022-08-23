@@ -17,7 +17,7 @@
     {
         "nombre" : "Buscador de patentes chilenas",
         "descripcion" : "Página web que entrega información del vehiculo y su propietario al momento de ingresar una patente chilena.",
-        "url" : "https://fullsystemeirl.com/",
+        "url" : "https://stray.cl",
         "image" : "/proyecto-patentes.webp",
         "tecnologias" : ["react", "css", "nodejs"]
     },
