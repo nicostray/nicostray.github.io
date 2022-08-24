@@ -8,9 +8,13 @@ const SobreMi = () => {
     <div className={styles.sobreMi__container}>
         <div className={styles.sobreMi__info}>
             <h2>Sobre mi</h2>
-            <p>Tengo 24 años, desarrollo principalmente en React, pero tengo conocimientos 
+            <p>Tengo 24 años, desarrollo principalmente en React/NextJs, pero tengo conocimientos 
                 sobre backend y aspiro a ser fullstack en un futuro cercano. 
                 Disfruto aprender cosas nuevas y compartir ideas con más personas.
+            </p>
+                <br />
+            <p>Te invito a revisar mis proyectos y a ponerte en contacto conmigo
+                si es que te ha interesado mi perfil y deseas que trabajemos juntos.
             </p>
         </div>
 
