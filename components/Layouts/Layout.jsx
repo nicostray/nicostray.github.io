@@ -15,8 +15,9 @@ const Layout = ({children, title, description, hero}) => {
             <meta name="title" content={title}/>
             <meta name="description" content={description}/>
             <meta name="author" content='Nicolás Correa'/>
-            <meta name='keywords' content='portafolio, desarrollador front-end, desarrollador molina, frontend chile'/>
-
+            <meta name='keywords' content='portafolio, desarrollador front-end, desarrollador molina, frontend chile, nicolas correa'/>
+            <meta property="og:type" content="website" />
+            <meta property="og:url" content="https://stray.cl" />
             <meta property="og:image" content="https://i.imgur.com/0GYyCsG.png" />
             <meta property="og:title" content={title}/>
             <meta property="og:description" content={description}/>
@@ -38,7 +39,7 @@ const Layout = ({children, title, description, hero}) => {
 
 Layout.defaultProps = {
   title: 'Nicolás Correa - Portafolio de diseño y desarrollo web',
-  description: 'Desarrollador Front-End. Aquí recopilo proyectos realizados completamente por mi.',
+  description: 'Soy un desarrollador de Front-End, utilizo principalmente React y NextJs acompañados de css puro. Aquí encontrarás una recopilación de mis proyectos favoritos.',
   hero: true,
 }
 
