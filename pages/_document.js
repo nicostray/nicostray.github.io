@@ -1,12 +1,21 @@
 // pages/_document.js
 
 import Document, { Html, Head, Main, NextScript } from 'next/document'
-
+import Script from 'next/script'
 class MyDocument extends Document {
   render() {
     return (
       <Html lang="es-CL">
         <Head>
+            <script src='https://www.googletagmanager.com/gtag/js?id=G-KHEC5WHP4N'/>
+            <script id="google-analytics" strategy="afterInteractive">
+                {`
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', 'G-KHEC5WHP4N');
+                `}
+            </script>
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
             <link rel="preconnect" href="https://fonts.googleapis.com" />
             <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
