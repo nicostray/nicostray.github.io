@@ -5,7 +5,7 @@ import Document, { Html, Head, Main, NextScript } from 'next/document'
 class MyDocument extends Document {
   render() {
     return (
-      <Html>
+      <Html lang="es-CL">
         <Head>
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
             <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -15,6 +15,7 @@ class MyDocument extends Document {
             <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
             <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
             <link rel="manifest" href="/site.webmanifest" />
+            <link rel="canonical" href="https://stray.cl/"></link>
         </Head>
         <body>
           <Main />
