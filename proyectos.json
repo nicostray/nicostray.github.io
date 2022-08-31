@@ -19,7 +19,7 @@
         "descripcion" : "Página web que entrega información del vehiculo y su propietario al momento de ingresar una patente chilena.",
         "url" : "https://stray.cl",
         "image" : "/proyecto-patentes.webp",
-        "tecnologias" : ["react", "css", "nodejs"]
+        "tecnologias" : ["react", "css", "nodejs", "express"]
     },
     {
         "nombre" : "Habboogle",
@@ -28,6 +28,14 @@
         "source" : "https://github.com/nicostray/habboogle",
         "image" : "/proyecto-habboogle.webp",
         "tecnologias" : ["react", "css"]
+    },
+    {
+        "nombre" : "Colors",
+        "descripcion" : "Generador de paletas aleatorias de colores.",
+        "url" : "https://colors.onrender.com/",
+        "source" : "https://github.com/nicostray/colors-frontend",
+        "image" : "/proyecto-colors.webp",
+        "tecnologias" : ["react", "css", "nodejs", "express"]
     }
 
 ]
