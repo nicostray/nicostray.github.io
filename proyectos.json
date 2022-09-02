@@ -17,7 +17,8 @@
     {
         "nombre" : "Buscador de patentes chilenas",
         "descripcion" : "Página web que entrega información del vehiculo y su propietario al momento de ingresar una patente chilena.",
-        "url" : "https://stray.cl",
+        "url" : "https://stray.cl/patentes-chile/",
+        "source" : "https://github.com/nicostray/patentes-chile",
         "image" : "/proyecto-patentes.webp",
         "tecnologias" : ["react", "css", "nodejs", "express"]
     },
