@@ -36,10 +36,10 @@
     border-radius: 10px;
     background-color: var(--primaryColor);
     cursor:pointer;
+    transition: all ease-in-out .3s;
 }
 
 .footer__contactar:hover{
-    transition: all ease-in-out .3s;
     transform: scale(1.05);
     color: var(--primaryColor);
     background-color: white;
@@ -59,10 +59,10 @@
     color:rgb(182, 182, 182);
     margin-top: 5px;
     margin-right: 10px;
+    transition: all ease-in-out .3s;
 }
 
 .footer__rrss i:hover{
     color:white;
-    transition: all ease-in-out .3s;
     transform: scale(1.05);
 }

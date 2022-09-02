@@ -106,10 +106,10 @@
     color:white;
     padding: 12px 17px;
     background-color: var(--secondaryColor);
+    transition: all ease-in-out .3s;
 }
 
 .drawerProyecto__link:hover{
-    transition: all ease-in-out .3s;
     transform: scale(1.05);
     color: var(--secondaryColor);
     background-color: white;

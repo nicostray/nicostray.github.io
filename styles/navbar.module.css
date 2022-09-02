@@ -44,7 +44,7 @@
 	height: 0.1em;
 	background-color: var(--primaryColor);
 	opacity: 0;
-	transition: opacity 350ms, transform 350ms;
+	transition: opacity 350ms ease-in-out, transform 350ms ease-in-out;
 }
 
 .navbar__link:hover::after{

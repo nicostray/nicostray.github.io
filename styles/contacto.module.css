@@ -17,10 +17,10 @@
 
 .contacto__container i{
     font-size: 2rem;
+    transition: all ease-in-out .3s;
 }
 
 .contacto__container i:hover{
-    transition: all ease-in-out .3s;
     transform: scale(1.1);
     color:black;
 }
