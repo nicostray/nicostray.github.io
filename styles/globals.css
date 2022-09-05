@@ -2,6 +2,7 @@ html,
 body {
   font-family: 'Roboto', sans-serif;
   background-color: var(--fondo);
+  font-size: 16px;
 }
 
 a {
@@ -18,11 +19,6 @@ a {
 h2{
   font-size: 1.7rem;
   font-weight: 700;
-  /* text-transform: uppercase; */
-  /* text-decoration: underline;
-  text-decoration-color: var(--lightPrimaryColor);
-  text-decoration-skip-ink: none;
-  text-underline-offset: 2px; */
 }
 
 h3, h4, h5, h6{
