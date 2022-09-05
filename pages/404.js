@@ -10,7 +10,7 @@ const error = () => {
             <Navbar />
                 <div className={styles.error__container}>
                     <img src='/image-404.webp' alt='imagen de marvin'></img>
-                    <div>
+                    <div className={styles.error__info}>
                         <h2>Error 404</h2>
                         <p>La página solicitada no existe</p>
                         <Link href='/'><a className={styles.error__button}>Ir a inicio</a></Link>
